@@ -1,9 +1,6 @@
-# ScanTech.AI
-You may also go through these resources to get a better idea on what we intend to do and how to do it.
-This is to just to get an overview about the project and ways to refine it
-Data extraction from unstructured docs
-https://www.analyticsvidhya.com/blog/2021/06/data-extraction-from-unstructured-pdfs/
-https://towardsdatascience.com/extracting-information-from-unstructured-sources-b9d8bd14e70a
-Similar companies working in this domain
-https://arxiv.org/pdf/2106.00952.pdf
-https://cinnamon.is/en/
+Abstractive Text Summarization using Pytorch
+
+Designed summaries of ~2000 article pairs in the wikihow dataset. Seq-seq models have been created using LSTM and GRU. Parameters for both these models have been tuned along with the implementation of teacher forcing and simple dot product attention mechanism. Further the attention weights have been plotted and evaluated using criteria like - BLEU, ROUGE, F-Score
+
+Reference:
+https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html
